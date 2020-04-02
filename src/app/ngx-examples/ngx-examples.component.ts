@@ -1,7 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
+import * as d3 from 'd3-shape';
 import { NgxChartsModule } from '@swimlane/ngx-charts';
 import { multi } from './data';
+
 
 @Component({
   selector: 'app-ngx-examples',
@@ -12,6 +14,10 @@ export class NgxExamplesComponent implements OnInit {
 
   multi: any[];
   view: any[] = [700, 300];
+
+  curve  = d3.curveBasis;
+
+
 
   // options
   legend: boolean = true;
@@ -32,6 +38,8 @@ export class NgxExamplesComponent implements OnInit {
 
   constructor() {
     Object.assign(this, { multi });
+    console.log(d3);
+
   }
 
   ngOnInit(): void {
@@ -49,5 +57,17 @@ export class NgxExamplesComponent implements OnInit {
   onDeactivate(data): void {
     console.log('Deactivate', JSON.parse(JSON.stringify(data)));
   }
+/*
+  this.curve = d3.curveStepBefore;
+  this.curve = d3.curveStepAfter;
+  this.curve = d3.curveStep;
+  this.curve = d3.curveNatural;
+  this.curve = d3.curveMonotoneY;
+  this.curve = d3.curveMonotoneX;
+  this.curve = d3.curveLinear;
+  this.curve = d3.curveCatmullRom;
+  this.curve = d3.curveBasis;
+  this.curve = d3.curveCardinal;
+*/
 
 }
