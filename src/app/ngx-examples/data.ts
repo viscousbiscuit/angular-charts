@@ -1,67 +1,89 @@
 export var multi = [
   {
-    "name": "Germany",
+    "name": "Stuff",
     "series": [
       {
-        "name": "1990",
-        "value": 62000000
+        "name": "11/25/2019",
+        "value": 40
       },
       {
-        "name": "2010",
-        "value": 73000000
+        "name": "12/01/2019",
+        "value": 70
       },
       {
-        "name": "2011",
-        "value": 89400000
+        "name": "12/08/2019",
+        "value": 30
+      },
+      {
+        "name": "12/15/2019",
+        "value": 80
+      },
+      {
+        "name": "12/22/2019",
+        "value": 160
+      },
+      {
+        "name": "12/29/2019",
+        "value": 80
       }
     ]
   },
 
   {
-    "name": "USA",
+    "name": "Change",
     "series": [
       {
-        "name": "1990",
-        "value": 250000000
+        "name": "11/25/2019",
+        "value": 60
       },
       {
-        "name": "2010",
-        "value": 50000
+        "name": "12/01/2019",
+        "value": 120
       },
       {
-        "name": "2011",
-        "value": 311000000
-      }
-    ]
-  },
-
-  {
-    "name": "France",
-    "series": [
-      {
-        "name": "1990",
-        "value": 58000000
+        "name": "12/08/2019",
+        "value": 80
       },
       {
-        "name": "2010",
-        "value": 50000020
+        "name": "12/15/2019",
+        "value": 80
       },
       {
-        "name": "2011",
-        "value": 58000000
+        "name": "12/22/2019",
+        "value": 120
+      },
+      {
+        "name": "12/29/2019",
+        "value": 80
       }
     ]
   },
   {
-    "name": "UK",
+    "name": "Total Visitors",
     "series": [
       {
-        "name": "1990",
-        "value": 57000000
+        "name": "11/25/2019",
+        "value": 10
       },
       {
-        "name": "2010",
-        "value": 62000000
+        "name": "12/01/2019",
+        "value": 40
+      },
+      {
+        "name": "12/08/2019",
+        "value": 160
+      },
+      {
+        "name": "12/15/2019",
+        "value": 30
+      },
+      {
+        "name": "12/22/2019",
+        "value": 10
+      },
+      {
+        "name": "12/29/2019",
+        "value": 20
       }
     ]
   }
